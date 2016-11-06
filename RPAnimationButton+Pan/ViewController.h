@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    CGFloat heightOfScrenn;
+    CGFloat WidthOfScreen;
+}
+- (IBAction)actionAllDirection:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UIImageView *ballView;
+- (IBAction)zoomIn:(id)sender;
+- (IBAction)zoomOut:(id)sender;
 
 @end
 
